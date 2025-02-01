@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
     int a,b, c;
-    int Avg;
+    float Avg;
     Avg = a+b+c/3;
     scanf("%a %b %c",&a, &b ,&c );
-    printf("Average: %d",Avg);
+    printf("Average: %f",Avg);
     return 0;
 }
