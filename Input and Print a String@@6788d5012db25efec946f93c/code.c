@@ -2,7 +2,7 @@
 
 int main(){
     char i[100];
-    printf("%s",i);
+    scanf("%s",&i);
     printf("%s",i);
     return 0;
 }
