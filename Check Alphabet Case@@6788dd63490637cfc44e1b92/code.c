@@ -8,6 +8,5 @@ int main() {
     else {
         printf("a.islower");
     }
-
     return 0;
 }
