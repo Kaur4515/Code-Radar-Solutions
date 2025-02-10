@@ -3,7 +3,7 @@ int main() {
     int a;
     scanf("%d",&a);
     switch(a){
-        case 1: printf(31);
+        case 1: printf("31");
         break;
         case 2: printf(28);
         break;
@@ -21,7 +21,7 @@ int main() {
         break;
         case 9: printf(30);
         break;
-        case 10:printf(31);
+        case 10: printf(31);
         break;
         case 11: printf(30);
         break;
