@@ -4,6 +4,6 @@ int fibonacciSeries(int a){
         int result = first + second;
         first = second ;
         second = result;
+        printf("%d",second);
     }
-printf("%d",second);
 }
