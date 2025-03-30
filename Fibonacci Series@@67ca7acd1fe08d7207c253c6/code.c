@@ -1,9 +1,9 @@
 int fibonacciSeries(int a){
-    int first = 0 , second = 1 ;
-    for(int i = 0 ; i < a ; i++){
+    int f = 0 , s = 1 , result;
+    for(int i = 0 ; i< a ; i++){
         printf("%d ",first);
-        int result = first + second;
+        result = first + second;
         first = second ;
-        second = result;
+        result = second;
     }
 }
